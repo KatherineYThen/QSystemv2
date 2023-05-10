@@ -1,0 +1,76 @@
+<link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONTAWESOME STYLE CSS -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <!--ANIMATED FONTAWESOME STYLE CSS -->
+    <link href="assets/css/font-awesome-animation.css" rel="stylesheet" />
+    <!-- VEGAS STYLE CSS -->
+    <link href="assets/scripts/vegas/jquery.vegas.min.css" rel="stylesheet" />
+    <!-- SIDE MENU STYLE CSS -->
+    <link href="assets/css/component.css" rel="stylesheet" />
+    <!-- CUSTOM STYLE CSS -->
+    <link href="assets/css/signstyle.css" rel="stylesheet" />
+    <head><title>Register Today</title></head>
+    <div class="container">
+        <div class="left">
+          <div class="header">
+            <h2 class="animation a1">Register Here!</h2>
+            <h4 class="animation a2">Please complete all info!</h4>
+          </div>
+          <form action="http://localhost/dbex/connect.php" method="post">
+            <div class="form">
+                <input 
+                  type="email" 
+                  id="email"
+                  name="email"
+                  class="form-field animation a3" 
+                  placeholder="Email Address">
+
+                <input 
+                  type="string" 
+                  id="firstname"
+                  name="firstname"
+                  class="form-field animation a4" 
+                  placeholder="First Name">
+                <input 
+                  type="string" 
+                  id="lastname"
+                  name="lastname"
+                  class="form-field animation a4" 
+                  placeholder="Last Name">
+                <input 
+                  type="string" 
+                  id="insurancenm"
+                  name="insurancenm"
+                  class="form-field animation a5" 
+                  placeholder="Insurance Name">
+                <input 
+                  type="string" 
+                  id="insuranceid"
+                  name="insuranceid"
+                  class="form-field animation a5" 
+                  placeholder="Insurance ID">
+                <input 
+                  type="string" 
+                  id="phone1"
+                  name="phone1"
+                  class="form-field animation a5" 
+                  placeholder="Phone Number">
+                <select 
+                    name="state" 
+                    id="state" 
+                    class="form-field animation a5">
+                    <option value="">Select State</option>
+                    <option value="NY">New York</option>
+                    <option value="NJ">New Jersey</option>
+                    <option value="CT">Connecticut</option>
+                    <!-- and so on... -->
+                  </select>
+              <!--<button type="submit" class="animation a6" onclick="window.location.href='completed.html';" method="">REGISTER</button>-->    
+              <button type="submit" class="animation a6">REGISTER</button>
+              
+              <h5 class="animation a6"><br><br>Have already an account? <a href="login.html"> LOG IN!</a></h5>
+          </div>
+        </form>
+        </div>
+        <div class="right"></div>
+      </div>
